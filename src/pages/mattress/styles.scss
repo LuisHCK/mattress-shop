@@ -46,7 +46,7 @@
 .ms-mattress-page__controls {
     @include desktop-sm {
         position: fixed;
-        width: 100vw;
+        width: calc(100vw - 32px);
         left: 0;
         bottom: 0;
         padding: 16px;
