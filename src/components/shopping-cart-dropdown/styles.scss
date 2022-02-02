@@ -50,11 +50,13 @@
 
 .ms-shopping-cart-dropdown__item__title {
     font-size: 16px;
+    color: $dark-gray;
 }
 
 .ms-shopping-cart-dropdown__item__price {
     font-size: 18px;
-    margin-top: 6px;
+    margin-top: 10px;
+    color: $dark-gray;
 }
 
 .ms-shopping-cart-dropdown__item__controls {
@@ -98,7 +100,7 @@
 .ms-shopping-cart-dropdown__item__quantity-label {
     margin: 0 8px;
     font-weight: bold;
-    color: $dark;
+    color: $dark-gray;
 }
 
 .ms-shopping-cart-dropdown__empty {
