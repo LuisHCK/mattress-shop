@@ -9,7 +9,7 @@
 
 Deluxe Mattresses Shop built in ReactJS
 
-## 🚀 [Live Demo](https://marverlous-app-test.netlify.app/)
+## 🚀 [Live Demo](https://mattress-shop.netlify.app/)
 
 &nbsp;
 
