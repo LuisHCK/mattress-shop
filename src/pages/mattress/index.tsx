@@ -55,7 +55,7 @@ const MattressPage = (): React.ReactElement => {
                     </h2>
 
                     <Select
-                        matressesList={mattressesList}
+                        mattressesList={mattressesList}
                         selected={selected}
                         onSelect={onSelect}
                         label="select mattress type"

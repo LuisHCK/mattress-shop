@@ -12,7 +12,7 @@ describe("Select component", () => {
 
         const { getAllByRole } = render(
             <Select
-                matressesList={mattressesList}
+                mattressesList={mattressesList}
                 selected="classic"
                 onSelect={handleSelect}
                 label="select mattress type"

@@ -4,7 +4,7 @@ import { TMattress } from "types/mattress";
 import "./styles.scss";
 
 const Select = ({
-    matressesList,
+    mattressesList,
     onSelect,
     selected,
     label,
@@ -13,7 +13,7 @@ const Select = ({
         <div className="ms-select">
             <div className="ms-select__label">{label}</div>
             <div className="ms-select__options-container">
-                {matressesList.map(([name, mattress]) => (
+                {mattressesList.map(([name, mattress]) => (
                     <button
                         key={`select-opt-${name}`}
                         className={classNames("ms-select__option", {
@@ -31,7 +31,7 @@ const Select = ({
 
 type TSelectProps = {
     selected: string;
-    matressesList: [name: string, mattress: TMattress][];
+    mattressesList: [name: string, mattress: TMattress][];
     onSelect: (value: string) => void;
     label: string;
 };
